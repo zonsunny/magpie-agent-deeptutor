@@ -24,21 +24,21 @@
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/Emilia06120878/magpie-agent-deeptutor/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/zonsunny/magpie-agent-deeptutor/main/install.sh | sh
 ```
 
 ```powershell
 # Windows
-powershell -c "irm https://raw.githubusercontent.com/Emilia06120878/magpie-agent-deeptutor/main/install.ps1 | iex"
+powershell -c "irm https://raw.githubusercontent.com/zonsunny/magpie-agent-deeptutor/main/install.ps1 | iex"
 ```
 
 也可以在 Magpie → **Plugins** 中添加仓库地址：
 
 ```text
-github:Emilia06120878/magpie-agent-deeptutor
+github:zonsunny/magpie-agent-deeptutor
 ```
 
-或用 Magpie CLI：`magpie plugin add github:Emilia06120878/magpie-agent-deeptutor`
+或用 Magpie CLI：`magpie plugin add github:zonsunny/magpie-agent-deeptutor`
 
 ---
 
@@ -56,7 +56,7 @@ github:Emilia06120878/magpie-agent-deeptutor
 ### 步骤
 
 1. **运行体检**：`node tools/doctor.mjs`。它会探测 DeepTutor 目录、校验版本与配置，并显示找到的目录与链接状态。
-2. **安装插件**：运行上面的安装脚本，或执行 `magpie plugin add github:Emilia06120878/magpie-agent-deeptutor`，随后 `magpie ls` 应能列出 DeepTutor。
+2. **安装插件**：运行上面的安装脚本，或执行 `magpie plugin add github:zonsunny/magpie-agent-deeptutor`，随后 `magpie ls` 应能列出 DeepTutor。
 3. **在 Magpie 中选择模型**：Agents 页面 → **DeepTutor** → 模型。
 4. **在 DeepTutor 中切换模型**：打开 DeepTutor 自己的设置，`Magpie` profile 下已列出全部模型，直接切换即可。
 5. **勾选 MCP 服务**：Magpie → 资源库 → MCP，把需要的服务分配给 **DeepTutor**；插件会同步进 DeepTutor 的 MCP 注册表。
@@ -70,8 +70,8 @@ github:Emilia06120878/magpie-agent-deeptutor
 | 操作 | 命令 |
 | :--- | :--- |
 | **安装前体检** | `node tools/doctor.mjs` |
-| **安装插件** | `curl -fsSL https://raw.githubusercontent.com/Emilia06120878/magpie-agent-deeptutor/main/install.sh \| sh` |
-| **不用脚本直接装** | `magpie plugin add github:Emilia06120878/magpie-agent-deeptutor` |
+| **安装插件** | `curl -fsSL https://raw.githubusercontent.com/zonsunny/magpie-agent-deeptutor/main/install.sh \| sh` |
+| **不用脚本直接装** | `magpie plugin add github:zonsunny/magpie-agent-deeptutor` |
 | **查看已检测到的 agent** | `magpie ls` |
 | **查看 DeepTutor 接管状态** | `magpie deeptutor` |
 | **断开并还原配置** | `magpie deeptutor default` |

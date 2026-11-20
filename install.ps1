@@ -1,12 +1,12 @@
 # Install the DeepTutor agent plugin into Magpie.
 #
-#   powershell -c "irm https://raw.githubusercontent.com/Emilia06120878/magpie-agent-deeptutor/main/install.ps1 | iex"
+#   powershell -c "irm https://raw.githubusercontent.com/zonsunny/magpie-agent-deeptutor/main/install.ps1 | iex"
 #
 # Set MAGPIE_BIN to point at the magpie executable when it is not on PATH.
 
 $ErrorActionPreference = 'Stop'
 
-$Repo = 'github:Emilia06120878/magpie-agent-deeptutor'
+$Repo = 'github:zonsunny/magpie-agent-deeptutor'
 
 function Find-Magpie {
     if ($env:MAGPIE_BIN -and (Test-Path -LiteralPath $env:MAGPIE_BIN)) {

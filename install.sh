@@ -1,12 +1,12 @@
 #!/bin/sh
 # Install the DeepTutor agent plugin into Magpie.
 #
-#   curl -fsSL https://raw.githubusercontent.com/Emilia06120878/magpie-agent-deeptutor/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/zonsunny/magpie-agent-deeptutor/main/install.sh | sh
 #
 # Set MAGPIE_BIN to point at the magpie executable when it is not on PATH.
 set -eu
 
-REPO='github:Emilia06120878/magpie-agent-deeptutor'
+REPO='github:zonsunny/magpie-agent-deeptutor'
 
 say() { printf '%s\n' "$*"; }
 die() { printf 'error: %s\n' "$*" >&2; exit 1; }

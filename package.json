@@ -9,11 +9,11 @@
   "keywords": ["magpie", "magpie-agent", "deeptutor", "agent", "mcp"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emilia06120878/magpie-agent-deeptutor.git"
+    "url": "git+https://github.com/zonsunny/magpie-agent-deeptutor.git"
   },
-  "homepage": "https://github.com/Emilia06120878/magpie-agent-deeptutor#readme",
+  "homepage": "https://github.com/zonsunny/magpie-agent-deeptutor#readme",
   "bugs": {
-    "url": "https://github.com/Emilia06120878/magpie-agent-deeptutor/issues"
+    "url": "https://github.com/zonsunny/magpie-agent-deeptutor/issues"
   },
   "files": [
     "index.mjs",
